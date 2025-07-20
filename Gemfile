@@ -13,6 +13,11 @@ gem "bootsnap", require: false
 gem "kamal", require: false
 gem "thruster", require: false
 
+# Authentication & Authorization
+gem "jwt"
+gem "pundit"
+gem "bcrypt", "~> 3.1.7"
+
 group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
